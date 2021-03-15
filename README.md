@@ -25,3 +25,6 @@ sweeper(sweep_config,proj_name)
 ## To obtain confusion matrix 
 Run code block with #confusion matrix and accuracy for test values 
 with required proj_name and hyperparameter values
+
+## Report Link
+  https://wandb.ai/krsrinivas/CS6910%20ASSIGNMENT%201/reports/CS6910-Assignment-1--Vmlldzo1MzI1Mzc
