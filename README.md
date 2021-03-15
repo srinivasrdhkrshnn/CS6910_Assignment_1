@@ -1,7 +1,6 @@
 # CS6910_Assignment_1
 
 ## Running training model
-to train parameters,
 parameters=do_GD(X_train,Y_train,optimizer,activation,hl_size,input_size,output_size,n_epoch,lr,reg,w_init,loss_type,minibatch_size=1,logging=False)
 
 - X_train, Y_train input and output datasets. Note that Y_train must be a class vector, and X_train must be a row vector(convert square image to single row).
@@ -17,7 +16,7 @@ parameters=do_GD(X_train,Y_train,optimizer,activation,hl_size,input_size,output_
 - minibatch_size-size of each minibatch
 - logging-set to True to log loss and accuracy to wandb
 
-## To run a sweep through wandb use
+## To run a sweep through wandb
 sweeper(sweep_config,proj_name)
 
 - sweep_config - dictionary with sweep parameters 
